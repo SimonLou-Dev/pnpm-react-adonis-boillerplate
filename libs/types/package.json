@@ -1,0 +1,13 @@
+{
+  "name": "@simonlou/types",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "esbuild src/*.ts src/*.tsx --outdir=dist --target=chrome95 --watch",
+    "build": "esbuild src/*.ts src/*.tsx --outdir=dist --target=chrome95"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
